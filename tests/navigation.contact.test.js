@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import pElementContent from './fixtures.js'
+import { pElementContent } from './fixtures.js'
 
 test.describe('Site navigation from index page', () => {
   let h1Element;
